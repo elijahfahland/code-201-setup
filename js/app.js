@@ -49,8 +49,33 @@ if (answerThird === 'no' || answerThird === 'n'){
 }
 
 
-var answerFourth = prompt('Elijahs favorite City is Portland Oregon').toLowerCase;
+var answerFourth = prompt('Elijahs favorite City is Portland Oregon').toLowerCase();
+
+if (answerFourth === 'yes' || answerFourth === 'y' || answerFourth === 'no' || answerFourth === 'n'){
+  console.log('User replied to the first question with: ' + answerFourth);
+} else if (answerFourth !== 'yes' || answerFourth !== 'y' || answerFourth !== 'no' || answerFourth !== 'n') {
+  alert('Please use Yes, Y, No or N to answer the rest of the questions');
+}
+if (answerFourth === 'yes' || answerFourth === 'y'){
+  alert('Unfortunatley that was incorrect. Better luck next time!');
+}
+if (answerFourth === 'no' || answerFourth === 'n'){
+  alert('Great job! His favorite city is Seattle!');
+}
 
 
+var answerFifth = prompt('Elijahs favorite animal is the Snow Leopard').toLowerCase();
 
+if (answerFifth === 'yes' || answerFifth === 'y' || answerFifth === 'no' || answerFifth === 'n'){
+  console.log('User replied to the first question with: ' + answerFifth);
+} else if (answerFifth !== 'yes' || answerFifth !== 'y' || answerFifth !== 'no' || answerFifth !== 'n') {
+  alert('Please use Yes, Y, No or N to answer the rest of the questions');
+}
+if (answerFifth === 'yes' || answerFifth === 'y'){
+  alert('Great job! His favorite animal is the Snow Leopard');
+}
+if (answerFifth === 'no' || answerFifth === 'n'){
+  alert('Unfortunatley that was incorrect. Better luck next time!');
+
+}
 
