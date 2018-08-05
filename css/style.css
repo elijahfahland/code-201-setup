@@ -1,4 +1,17 @@
 h1{
   text-align: center;
   color: green;
+  border-color: peru;
+  border: 10px solid peru;
+}
+
+section{
+  text-align: center;
+  color: peru;
+  border-color: green;
+  border: 10px solid green
+}
+
+body{
+  background-color: powderblue;
 }
